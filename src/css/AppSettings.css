@@ -1,0 +1,91 @@
+.offcanvas {
+  background-color: rgba(0, 0, 0, 0.616) !important;
+}
+
+p {
+  color: white;
+}
+
+.offcanvas-end {
+  width: 600px !important;
+}
+
+.offcanvas_input {
+  padding: 10px;
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(255, 255, 255);
+}
+
+.offcanvas_input::placeholder {
+  color: rgb(250, 246, 246) !important;
+}
+
+/* toggle */
+
+.toggle {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px;
+  outline: none;
+  background-color: #000;
+  border: 3px solid white;
+}
+
+.toggle::after {
+  content: "";
+  position: absolute;
+  top: 3.5px;
+  will-change: transform;
+  transform: translate(5.5px);
+  transition: transform 0.2s ease-out;
+  width: 35px;
+  height: 35px;
+  background: white;
+  border: 2px solid #7f8fa6;
+  outline: none;
+  border-radius: 50%;
+}
+
+/* //active */
+
+.toggle.active {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 25px;
+  outline: none;
+  background-color: #3fc800;
+  border: 3px solid white;
+}
+
+.toggle.active::after {
+  content: "";
+  position: absolute;
+  top: 3.5px;
+  will-change: transform;
+  transform: translate(50px);
+  transition: transform 0.2s ease-out;
+  width: 35px;
+  height: 35px;
+  background: white;
+  border: 2px solid #7f8fa6;
+  outline: none;
+  border-radius: 50%;
+}
+
+/* //dropdown */
+
+.form-select {
+  border: none;
+  background-color: rgb(255, 255, 255) !important;
+  color: black;
+}
+
+.form-select:focus {
+  border: none !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}

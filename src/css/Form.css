@@ -1,0 +1,11 @@
+.settings {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(255, 251, 251, 0.753);
+  padding: 5px 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.settings:hover {
+  background: #c9e2ee;
+}

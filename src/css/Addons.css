@@ -1,0 +1,64 @@
+/* pop up class modifcation from bootstrap  */
+
+.popover {
+  width: 400px !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: black;
+}
+
+.addons {
+  margin: 0;
+}
+
+.plus {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(255, 255, 255);
+  font-size: 60px;
+  border-radius: 50%;
+  padding: 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.plus:hover {
+  background: #c9e2ee;
+}
+
+/* list group style */
+
+.listItems {
+  font-size: 20px;
+  color: rgb(250, 246, 246) !important;
+  background-color: black;
+  cursor: pointer;
+}
+
+.listItems.active {
+  background: #27033b !important;
+}
+
+.listItems:hover {
+  background: #27033b;
+}
+
+.dropdown-toggle {
+  background: red !important;
+  background: none !important;
+  padding: 0;
+  margin: 0;
+  border: none !important;
+  outline: none !important;
+}
+.bootstrap-select .dropdown-toggle:focus {
+  outline: 0 !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+/* //add ons */
+
+.itemActive:active {
+  background: #27033b !important;
+}

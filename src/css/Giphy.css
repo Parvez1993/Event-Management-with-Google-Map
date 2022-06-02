@@ -1,0 +1,31 @@
+/* //home page */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gifs {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif {
+  padding: 0 2px;
+}
+
+.loader {
+  color: blue;
+}
+
+/* //badgebutton. */
+.badge-btn {
+  background: rgba(35, 17, 116, 0.705);
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,109 @@
+.title {
+  color: rgb(250, 246, 246) !important;
+  background-color: rgba(0, 0, 0, 0.438);
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.title::placeholder {
+  color: rgba(250, 250, 250, 0.411);
+}
+
+.title:focus {
+  outline: none !important;
+}
+
+.title:hover {
+  background: #4ab2e28a;
+}
+
+/* .form-input {
+  color: rgb(250, 246, 246) !important;
+  background-color: rgba(0, 0, 0, 0.438);
+  border: none;
+}
+
+.form-input:hover {
+  background: #27033b;
+} */
+
+.input-container {
+  color: rgb(250, 246, 246) !important;
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 100%;
+}
+.input-container:hover {
+  background: #4ab2e28a !important;
+}
+
+.label_font {
+  border: none;
+  padding: 10px;
+  opacity: 0.438;
+}
+.form_icons {
+  border: none;
+  padding: 10px;
+  opacity: 0.438;
+}
+
+/* hosted by */
+
+.hosted_by {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(250, 246, 246) !important;
+  width: 60%;
+}
+
+.hosted_by::placeholder {
+  color: rgba(250, 250, 250, 0.411);
+}
+
+.hosted_by:focus {
+  outline: none !important;
+}
+
+/* //location */
+
+.location {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(250, 246, 246) !important;
+  width: 90%;
+}
+
+.location::placeholder {
+  color: rgba(250, 250, 250, 0.411);
+}
+
+.location:focus {
+  outline: none !important;
+}
+
+/* //spots */
+
+.spots {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(250, 246, 246) !important;
+  min-width: 10px;
+}
+
+.spots::placeholder {
+  color: rgba(250, 250, 250, 0.411);
+}
+
+.spots:focus {
+  outline: none !important;
+}
+
+/* textarea */
+
+textarea {
+  width: 300px;
+  min-height: 270px;
+  resize: vertical;
+  border: none;
+}
